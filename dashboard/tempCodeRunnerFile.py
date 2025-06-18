@@ -1,0 +1,1 @@
+selected_season = st.sidebar.multiselect("Season:", ["Semua"] + ["Spring", "Summer", "Fall", "Winter"])
