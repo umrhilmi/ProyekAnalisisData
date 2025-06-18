@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 sns.set(style='dark')
 
-bike_df = pd.read_csv("main_data.csv")
+bike_df = pd.read_csv("dashboard/main_data.csv")
 
 def create_weather_situation_df(df):
     return df.groupby(by="weathersit").cnt.mean().reset_index().rename(columns={"weathersit": "Weather Condition"})
