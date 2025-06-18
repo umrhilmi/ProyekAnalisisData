@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 sns.set(style='dark')
-file_path="maindata.csv"
+file_path="dashboard/maindata.csv"
 bike_df = pd.read_csv(filepath)
 
 def create_weather_situation_df(df):
